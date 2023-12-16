@@ -13,6 +13,11 @@
   flex-direction: column;
 }
 
+@mixin container {
+  @include col;
+  flex: 1;
+}
+
 @mixin hide-scroll {
   &::-webkit-scrollbar {
     display: none;
