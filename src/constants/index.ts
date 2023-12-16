@@ -30,3 +30,26 @@ export const navLinks = [
     url: '/dashboard',
   },
 ]
+
+export const socials = [
+  {
+    id: 1,
+    title: 'Facebook',
+    url: '/1.png',
+  },
+  {
+    id: 2,
+    title: 'Instagram',
+    url: '/2.png',
+  },
+  {
+    id: 3,
+    title: 'Twitter',
+    url: '/3.png',
+  },
+  {
+    id: 4,
+    title: 'Youtube',
+    url: '/4.png',
+  },
+]
