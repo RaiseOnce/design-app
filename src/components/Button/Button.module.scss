@@ -1,0 +1,11 @@
+@import '../../styles/base';
+
+.container {
+  padding: 20px;
+  cursor: pointer;
+  background-color: $color-green;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: $color-white;
+}
