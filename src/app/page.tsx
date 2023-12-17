@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Better design for your digital products.
         </h1>
-        <p className={styles.desc}>
+        <p className={styles.subtitle}>
           Turning your Idea into Reality. We bring together the teams from the
           global tech industry.
         </p>
