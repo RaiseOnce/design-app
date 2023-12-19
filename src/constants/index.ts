@@ -53,3 +53,24 @@ export const socials = [
     url: '/4.png',
   },
 ]
+
+export const portfolioItems = [
+  {
+    id: 1,
+    title: 'Illustrations',
+    url: '/portfolio/illustrations',
+    bg: "url('/illustration.png')",
+  },
+  {
+    id: 2,
+    title: 'Websites',
+    url: '/portfolio/websites',
+    bg: "url('/websites.jpg')",
+  },
+  {
+    id: 3,
+    title: 'Application',
+    url: '/portfolio/application',
+    bg: "url('/apps.jpg')",
+  },
+]
