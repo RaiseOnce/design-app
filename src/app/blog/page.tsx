@@ -1,8 +1,60 @@
 import React from 'react'
 import styles from './page.module.scss'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Blog = () => {
-  return <div>Blog</div>
+  return (
+    <div>
+      <Link href="/blog/testId" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image
+            src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+            width={400}
+            height={250}
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Test</h1>
+          <p className={styles.subtitle}>Subtitle</p>
+        </div>
+      </Link>
+
+      <Link href="/blog/testId" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image
+            src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+            width={400}
+            height={250}
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Test</h1>
+          <p className={styles.subtitle}>Subtitle</p>
+        </div>
+      </Link>
+
+      <Link href="/blog/testId" className={styles.container}>
+        <div className={styles.imageContainer}>
+          <Image
+            src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+            width={400}
+            height={250}
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Test</h1>
+          <p className={styles.subtitle}>Subtitle</p>
+        </div>
+      </Link>
+    </div>
+  )
 }
 
 export default Blog

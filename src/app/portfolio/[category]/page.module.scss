@@ -1,0 +1,40 @@
+@import '../../../styles/base';
+
+.catTitle {
+  color: $color-green;
+}
+
+.item {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  &:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
+}
+
+.imgContainer {
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.content {
+  @include container;
+  gap: 20px;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
