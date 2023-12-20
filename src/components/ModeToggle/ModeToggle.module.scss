@@ -1,0 +1,27 @@
+@import '../../styles/base';
+
+.container {
+  width: 42px;
+  height: 24px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+
+  border: 1.5px solid $color-green-dark;
+  border-radius: 30px;
+}
+
+.icon {
+  font-size: 12px;
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  background-color: $color-green;
+  border-radius: 50px;
+  position: absolute;
+}

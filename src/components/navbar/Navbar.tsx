@@ -2,8 +2,9 @@
 
 import { navLinks } from '@/constants'
 import Link from 'next/link'
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from './Navbar.module.scss'
+import ModeToggle from '../ModeToggle/ModeToggle'
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
       </Link>
 
       <div className={styles.links}>
+        <ModeToggle />
         {navLinks.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
             {link.title}
