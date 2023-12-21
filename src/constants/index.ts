@@ -69,8 +69,8 @@ export const portfolioItems = [
   },
   {
     id: 3,
-    title: 'Application',
-    url: '/portfolio/application',
+    title: 'Applications',
+    url: '/portfolio/applications',
     bg: "url('/apps.jpg')",
   },
 ]
