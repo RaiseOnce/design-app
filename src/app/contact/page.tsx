@@ -2,6 +2,12 @@ import React from 'react'
 import styles from './page.module.scss'
 import Image from 'next/image'
 import Button from '@/components/Button/Button'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Page',
+  description: 'This is Contact Page',
+}
 
 const Contact = () => {
   return (
@@ -16,8 +22,8 @@ const Contact = () => {
           <input type="text" placeholder="email" className={styles.input} />
           <textarea
             placeholder="message"
-            cols="30"
-            rows="10"
+            cols={30}
+            rows={10}
             className={styles.textArea}
           />
           <Button url="#" text="Send" />
