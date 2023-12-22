@@ -1,11 +1,15 @@
+import { ObjectId, Types } from 'mongoose'
+
 export interface ButtonProps {
   text: string
   url: string
 }
 
 export interface BlogItemsType {
-  id: number
+  _id: string
   title: string
+  img: string
+  desc: string
 }
 
 export interface PortfolioItemsType {
